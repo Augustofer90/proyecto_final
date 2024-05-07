@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="nav-wrapper">
+        <nav>
+            <input type="checkbox" name="" id="toggle">
+            <label for="toggle"><i class="material-icons">menu</i></label>
+            <div class="menu">
+                <ul class="menu-ul">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./Productos.html">Productos</a></li>
+                    <li><a href="./DondeEstamos.html">Donde Estamos</a></li>
+                    <li><a href="./ArmaTuPc.html">Arma tu Pc</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p class="instrucciones">Ingresa tus datos paar chequear el estado de tu pedido:</p>
+        <form action="">
+            <fieldset class="formulario-container">
+                <section class="formulario">
+                    <div>
+                        <legend>DATOS PERSONALES</legend>
+                    </div>
+                    <div>
+                        <label for="Nombre">Nombre y Apellido</label>
+                        <input type="text" id="Nombre y Apellido" name="Nombre y Apellido" required>
+                    </div>
+                    <div>
+                        <label for="eMail">eMail</label>
+                        <input type="email" id="eMail" name="Mail" required>
+                    </div>
+                    <div>
+                        <label for="Numero de Pedido">Numero de Pedido</label>
+                        <input type="number" id="Numero de Pedido" name="Numero de Pedido" required>
+                    </div>
+                    <div>
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea name="Mensaje" id="Mensaje" cols="50" rows="15"></textarea>
+                    </div>    
+                    <div>
+                        <h3>Desea recibir Actualizaciones?</h3>
+                        <label for="Recibir Actualizaciones al mail"></label>
+                        <input type="checkbox" id="Recibir Actualizaciones al mail" name="Recibir Actualizaciones al mail" value="comunicacion">
+                        <input type="submit" value="Enviar">
+                    </div>    
+                </section>
+            </fieldset>
+        </form>
+        <section class="atencion">
+            <p>No te preocupes! Vas a tener una respuesta al instante por nuestro gran equipo de atencion al cliente
+            </p>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="trabajo">
+                <p>Queres trabajar con nosotros?</p>
+                <button>Click Aca!</button>
+            </div>
+            <div class="icons-container">
+                <div class="seguinos">
+                    <h3>Seguinos en:</h3>
+                </div>
+                <div class="icons">
+                    <img src="../assets/Icons/face.png" alt="face">
+                    <img src="../assets/Icons/instagram.png" alt="insta">
+                    <img src="../assets/Icons/whatsapp.png" alt="what">
+                </div>
+            </div>
+
+        </section>
+    </footer>
+</body>
+</html>

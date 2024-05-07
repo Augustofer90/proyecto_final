@@ -1,0 +1,568 @@
+/**
+-- #3A0D50ff;
+-- #c875cc;
+-- #0E466Bff;
+-- #ffebcd;
+-- #0D011Aff;
+font-family: "Audiowide", sans-serif;
+**/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+html{
+    font-size: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 12rem;
+    background-color: #0D011Aff;
+    background-image: url(../assets/Images/Ascisco\ Gaming\ Store.png);
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    position: sticky;
+}
+body{
+    background-image: url(../assets/Images/Background.jpg);
+    background-size: cover;
+}
+.nav-wrapper{
+    
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7.5rem;
+    
+
+}
+
+nav div ul{
+    display: flex;
+    list-style: none;
+    gap: 1.25rem;
+}
+
+.menu-ul li a{
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+    color: #ffebcd;
+}
+
+nav #toggle, nav label{
+    display: none;
+}
+section .intro{
+    width: 100vh;
+    
+}
+.intro p{
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.25rem;
+    background-color: #ffffffa1;
+    color: #0D011Aff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.laptopcon{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+.laptopscard{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 7px 7px 7px #3A0D50ff;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    background-color: #0D011Aff;
+    
+
+}
+
+.laptopscard div{
+    width: 100%;
+    height: 60%;
+    
+}
+
+.laptopscard div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.laptopscard div p{
+    display: flex;
+    font-family: "Audiowide", sans-serif;
+    color: #ffebcd;
+    justify-content: center;
+    
+    
+    
+}
+.laptopscard div img:hover{
+    filter: sepia(1);
+}
+.descripcion-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 31.25rem;
+}
+.descripcion{
+    width: 100%;
+    height: 7rem;
+    background-color: #ffffffa1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31.25rem;
+    
+    
+}
+.descripcion-text{
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #0D011Aff;
+    text-align:center;
+    overflow: hidden;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0D011Aff ;
+}
+.trabajo{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    color: #ffebcd;
+}
+.trabajo button{
+    all: initial;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    border: #c875cc;
+    border-style: groove;
+    border-radius: 20%;
+    
+    background-color: #ffebcd;
+}
+.icons-container{
+    display: flex;
+    justify-content: right;
+}
+
+.seguinos{
+    display: flex;
+    font-family: "Audiowide", sans-serif;
+    color: #ffebcd;
+}
+
+.icons{
+    display: flex;
+    align-items: end;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    
+
+}
+div h2{
+    font-family: "Audiowide", sans-serif;
+    color: #ffebcd;
+}
+.productos-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color: #ffffffa1 ;
+    border-style: solid;
+    border-color: #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.productos{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.productos ul li{
+    list-style: none
+}
+.productos ul li a{
+    font-family: "Audiowide", sans-serif;
+    font-size: 2rem;
+    color: #0E466Bff ;
+}
+.itemsgaleria{
+    background-color: #d9d2d2a1;
+    display: grid;
+    width: 70%;
+    margin-right: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9"
+    ;
+    gap: 1rem;
+}
+.itemsgaleria img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    
+}
+.item1{
+    grid-area: item1;
+}
+.item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+}
+.item4 {
+    grid-area: item4;
+}
+.item5 {
+    grid-area: item5;
+}
+.item6 {
+    grid-area: item6;
+}
+.item7 {
+    grid-area: item7;
+}
+.item8 {
+    grid-area: item8;
+}
+.item9 {
+    grid-area: item9;
+}
+div .flecha{
+    width: 100%;
+    text-align: center;
+}
+.flecha button{
+    all: initial;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.5rem;
+    border: #c875cc;
+    border-style: groove;
+    border-radius: 20%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffebcd;
+    
+}
+
+.instrucciones{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.75rem;
+    background-color: #ffebcd7c;
+    color: #ffebcd;
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+}
+.formulario-container{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.formulario{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.75rem;
+}
+.formulario div h3{
+    color: #ffebcd;
+}
+.atencion{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.75rem;
+    color: #ffebcd;
+    background-color: #ffebcd7c;
+}
+.tipos{
+    padding: .9375rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: .625rem;
+    background-color: #ffebcd7c;
+    border-style: solid;
+    border-color: #000000;
+    
+
+}
+.tipo-img{
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: rgba(240, 248, 255, 0.651);
+    border-style: solid;
+    border: #000000;
+    border-radius: .625rem;
+    border-width: 112px;
+}
+.tipo-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    box-shadow: 7px 7px 7px #3A0D50ff;
+    
+
+}
+.flecha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.flecha button{
+    all: initial;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    border: #c875cc;
+    border-style: groove;
+    border-radius: 10%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #ffebcd;
+}
+.wattprecio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #000000;
+    background-color: #ffebcd7c;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    
+}
+.wattprecio{
+    all: initial;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    background-color:#ffebcd7c;
+}
+
+.partesgaleria{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "gal1 gal2 gal3 gal4"
+    "gal5 gal6 gal7 gal8"
+    ;
+    gap: 1rem;
+}
+.partesgaleria img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+.gal1{
+    grid-area: gal1;
+}
+.gal2 {
+    grid-area: gal2;
+}
+.gal3 {
+    grid-area: gal3;
+}
+.gal4 {
+    grid-area: gal4;
+}
+.gal5 {
+    grid-area: gal5;
+}
+.gal6 {
+    grid-area: gal6;
+}
+.gal7 {
+    grid-area: gal7;
+}
+.gal8 {
+    grid-area: gal8;
+}
+.maildecontacto{
+    width: 100%;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    background-color:#ffebcd7c;
+}
+.galerialocal{
+    display: grid;
+    width: 100%;
+    margin: .625rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "local1 local4 local3 local3"
+    "local1 local4 local2 local2"
+    "local5 local5 local5 local6"                
+    ;
+    gap: 1rem;
+}
+.galerialocal img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-style: groove;
+        border-color: #c875cc;
+        box-shadow: 7px 7px 7px #3A0D50ff;
+}
+.local1{
+    grid-area: local1;
+}
+.local2{
+    grid-area: local2;
+}
+.local3{
+    grid-area: local3;
+}
+.local4{
+    grid-area: local4;
+}
+.local5{
+    grid-area: local5;
+}
+.local6{
+    grid-area: local6;
+}
+
+.mapita{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-style: solid;
+    border-color: #000000;
+    box-shadow: 7px 7px 7px #3A0D50ff;
+}
+@media(max-width:760px){
+    nav .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    nav .menu-ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }   
+    nav label{
+        display: inline-flex;
+        color: rgb(255, 255, 255);
+
+    }
+    nav #toggle:checked ~ .menu{
+        height: 100%;
+    }
+    
+    .laptopcon{
+        flex-direction: column;
+        align-items: center;
+    }
+    .descripcion{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .partesgaleria{
+        display: grid;
+        width: 70%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "gal1 gal2"
+        "gal3 gal4"
+        "gal5 gal6"
+        "gal7 gal8"
+        ;
+        gap: 0.5rem;
+    }
+    .itemsgaleria{
+        display: grid;
+        width: 50%;
+        margin: auto;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item4"
+        "item5 item6"
+        "item7 item8"
+        "item9 item10"
+        ;
+        gap: 0.5rem;
+    }
+    .instrucciones{
+        font-size: 1.2rem ;
+}
+.productos ul li a{
+    
+    font-size: 1.5rem;
+}
+.wattprecio-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+}
+@media(max-width:480px){
+    .itemsgaleria{
+        display: grid;
+        width: 50%;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-areas: 
+        "item1"
+        "item2" 
+        "item3" 
+        "item4" 
+        "item5" 
+        "item6" 
+        "item7" 
+        "item8" 
+        "item9" ;
+        gap: 0.2rem;
+    }
+}
+.productos li a{
+    
+    font-size: 1rem;
+}
+.instrucciones{
+    font-size: 1rem ;
+}
+
+    
