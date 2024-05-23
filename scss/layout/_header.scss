@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    height: auto;
+    background-color: #0D011A;
+    background-image: url(../assets/Images/AsciscoGamingStore.png);
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: sticky;
+    nav{
+        height: 11.25rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:end;
+        align-items:center;
+        flex-direction: column;
+        padding-bottom: .625rem;
+        #toggle, nav label{
+            display: none;}
+        div ul{
+            display: flex;
+            list-style: none;
+            gap: 1.25rem;
+            align-items: end;
+            a{
+                font-family: "Audiowide", sans-serif;
+                text-decoration: none;
+                color: #ffebcd;
+            }
+        }
+    
+    }
+}

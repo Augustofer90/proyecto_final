@@ -1,0 +1,53 @@
+$colorfuente: #ffffffa1;
+$colorsombra: #3A0D50ff;
+
+.intro{
+    width: 100%;
+    background-color: $colorfuente;
+    margin-bottom: 100px;
+    p{
+        font-family: "Audiowide", sans-serif;
+        font-size: 1.25rem;
+        color: #0D011Aff;
+        text-align: center;
+    }
+   
+    
+}
+.laptopcon{
+    @include flex(row, space-around, center, 4rem);
+    .laptopscard{
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        box-shadow: 7px 7px 7px #3A0D50ff;
+        font-family: "Audiowide", sans-serif;
+        font-size: 1rem;
+        background-color: #0D011Aff;
+        div{
+            width: 100%;
+            height: 60%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                &:hover{
+                    filter: sepia(1);
+                }
+            }
+            p,h2{
+                display: flex;
+                font-family: "Audiowide", sans-serif;
+                color: #ffebcd;
+                justify-content: center;
+                
+            }
+        }
+    
+    }
+}
+.descripcion-container{
+    @extend .intro;
+    margin-top: 1.5625rem;
+    margin-bottom: .625rem;
+}

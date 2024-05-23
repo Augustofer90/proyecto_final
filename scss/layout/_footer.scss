@@ -1,0 +1,45 @@
+.footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 15rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right top, #3a0d50, #532066, #6c337d, #874694, #a25aac, #a158a1, #9e5696, #9b548c, #763e62, #502b3e, #2b1920, #000000);
+    position:sticky;
+    bottom: 0;
+    .trabajo{
+        font-family: "Audiowide", sans-serif;
+        font-size: 1rem;
+        color: #ffebcd;
+        button{
+            all: initial;
+            font-family: "Audiowide", sans-serif;
+            font-size: 1rem;
+            border: #c875cc;
+            border-style: groove;
+            border-radius: 20%;
+            
+            background-color: #ffebcd;
+        }
+    }
+    .icons-container{
+        display: flex;
+        justify-content: right;
+        .seguinos{
+            display: flex;
+            font-family: "Audiowide", sans-serif;
+            color: #ffebcd;
+        }
+        .icons{
+            display: flex;
+            align-items: end;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}

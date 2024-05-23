@@ -1,0 +1,27 @@
+.instrucciones{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.75rem;
+    background-color: #ffebcd7c;
+    color: #ffebcd;
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+}
+.formulario-container{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    .formulario{
+        font-family: "Audiowide", sans-serif;
+        font-size: 1.75rem;
+        div h3{
+            color: #ffebcd;
+        }
+    }
+}
+.atencion{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.75rem;
+    color: #ffebcd;
+    background-color: #ffebcd7c;
+}

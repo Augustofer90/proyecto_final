@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import"./utilities/maps";
+@import"./utilities/_mixins";
+@import"./utilities/variables";
+
+@import"./base/_reset.scss";
+
+@import"./layout/_header";
+@import"./layout/_mainindex";
+@import"./layout/_footer";
+@import"./layout/_productosmain.scss";
+@import"./layout/_pedidos.scss";
+@import"./layout/_armatupc";
+@import"./layout/_dondeestamos.scss";
+
+h2{
+    font-family: "Audiowide", sans-serif;
+    color: #ffebcd;
+}
+
+/**meddiaqueries**/
+
+@import"./layout/media/media768";
+@import"./layout/media/media480";
+

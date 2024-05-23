@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../assets/Images/Background.jpg);
+  background-size: contain; }
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: #0D011A;
+  background-image: url(../assets/Images/AsciscoGamingStore.png);
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: sticky; }
+  header nav {
+    height: 11.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: .625rem; }
+    header nav #toggle, header nav nav label {
+      display: none; }
+    header nav div ul {
+      display: flex;
+      list-style: none;
+      gap: 1.25rem;
+      align-items: end; }
+      header nav div ul a {
+        font-family: "Audiowide", sans-serif;
+        text-decoration: none;
+        color: #ffebcd; }
+
+.intro, .descripcion-container {
+  width: 100%;
+  background-color: #ffffffa1;
+  margin-bottom: 100px; }
+  .intro p, .descripcion-container p {
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.25rem;
+    color: #0D011Aff;
+    text-align: center; }
+
+.laptopcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem; }
+  .laptopcon .laptopscard {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 7px 7px 7px #3A0D50ff;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    background-color: #0D011Aff; }
+    .laptopcon .laptopscard div {
+      width: 100%;
+      height: 60%; }
+      .laptopcon .laptopscard div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+        .laptopcon .laptopscard div img:hover {
+          filter: sepia(1); }
+      .laptopcon .laptopscard div p, .laptopcon .laptopscard div h2 {
+        display: flex;
+        font-family: "Audiowide", sans-serif;
+        color: #ffebcd;
+        justify-content: center; }
+
+.descripcion-container {
+  margin-top: 1.5625rem;
+  margin-bottom: .625rem; }
+
+.footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 15rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to right top, #3a0d50, #532066, #6c337d, #874694, #a25aac, #a158a1, #9e5696, #9b548c, #763e62, #502b3e, #2b1920, #000000);
+  position: sticky;
+  bottom: 0; }
+  .footer .trabajo {
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    color: #ffebcd; }
+    .footer .trabajo button {
+      all: initial;
+      font-family: "Audiowide", sans-serif;
+      font-size: 1rem;
+      border: #c875cc;
+      border-style: groove;
+      border-radius: 20%;
+      background-color: #ffebcd; }
+  .footer .icons-container {
+    display: flex;
+    justify-content: right; }
+    .footer .icons-container .seguinos {
+      display: flex;
+      font-family: "Audiowide", sans-serif;
+      color: #ffebcd; }
+    .footer .icons-container .icons {
+      display: flex;
+      align-items: end; }
+      .footer .icons-container .icons img {
+        width: 25px;
+        height: 25px; }
+
+.productos-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  background-color: #ffffffa1;
+  border-style: solid;
+  border-color: #000000;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .productos-container .productos {
+    width: 30%;
+    display: flex;
+    flex-direction: column; }
+    .productos-container .productos ul li {
+      list-style: none; }
+      .productos-container .productos ul li a {
+        font-family: "Audiowide", sans-serif;
+        font-size: 2rem;
+        color: #0E466Bff; }
+
+.itemsgaleria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9";
+  gap: 1rem;
+  background-color: #d9d2d2a1;
+  width: 70%;
+  margin-right: 1rem; }
+  .itemsgaleria img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; }
+
+.item1 {
+  grid-area: item1; }
+
+.item2 {
+  grid-area: item2; }
+
+.item3 {
+  grid-area: item3; }
+
+.item4 {
+  grid-area: item4; }
+
+.item5 {
+  grid-area: item5; }
+
+.item6 {
+  grid-area: item6; }
+
+.item7 {
+  grid-area: item7; }
+
+.item8 {
+  grid-area: item8; }
+
+.item9 {
+  grid-area: item9; }
+
+.flecha {
+  width: 100%;
+  text-align: center; }
+  .flecha button {
+    all: initial;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.5rem;
+    border: #c875cc;
+    border-style: groove;
+    border-radius: 20%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffebcd; }
+
+.instrucciones {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.75rem;
+  background-color: #ffebcd7c;
+  color: #ffebcd;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000; }
+
+.formulario-container {
+  display: flex;
+  flex-direction: column;
+  align-items: normal; }
+  .formulario-container .formulario {
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.75rem; }
+    .formulario-container .formulario div h3 {
+      color: #ffebcd; }
+
+.atencion {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.75rem;
+  color: #ffebcd;
+  background-color: #ffebcd7c; }
+
+.instrucciones {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.75rem;
+  background-color: #ffebcd7c;
+  color: #ffebcd;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000; }
+
+.tipos {
+  padding: .9375rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  gap: .625rem;
+  background-color: #ffebcd7c;
+  border-style: solid;
+  border-color: #000000; }
+  .tipos .tipo-img {
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: rgba(240, 248, 255, 0.651);
+    border-style: solid;
+    border: #000000;
+    border-radius: .625rem;
+    border-width: 112px; }
+    .tipos .tipo-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      box-shadow: 7px 7px 7px #3A0D50ff; }
+
+.wattprecio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #000000;
+  background-color: #ffebcd7c;
+  border-bottom-color: #000000;
+  border-bottom-style: solid; }
+  .wattprecio-container .wattprecio {
+    all: initial;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    background-color: #ffebcd7c; }
+
+.flecha {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .flecha .flecha button {
+    all: initial;
+    font-family: "Audiowide", sans-serif;
+    font-size: 1rem;
+    border: #c875cc;
+    border-style: groove;
+    border-radius: 10%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: #ffebcd; }
+
+.partesgaleria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: none;
+  align-content: none;
+  grid-template-areas: "gal1 gal2 gal3 gal4" "gal5 gal6 gal7 gal8";
+  width: 100%;
+  gap: 1rem; }
+  .partesgaleria div {
+    width: 25rem;
+    height: 25rem;
+    text-align: center;
+    box-shadow: 7px 7px 7px #3A0D50ff; }
+    .partesgaleria div img {
+      width: 60%;
+      height: 60%;
+      object-fit: contain; }
+
+.gal1 {
+  grid-area: gal1; }
+
+.gal2 {
+  grid-area: gal2; }
+
+.gal3 {
+  grid-area: gal3; }
+
+.gal4 {
+  grid-area: gal4; }
+
+.gal5 {
+  grid-area: gal5; }
+
+.gal6 {
+  grid-area: gal6; }
+
+.gal7 {
+  grid-area: gal7; }
+
+.gal8 {
+  grid-area: gal8; }
+
+.instrucciones {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.75rem;
+  background-color: #ffebcd7c;
+  color: #ffebcd;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000; }
+
+.instrucciones {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1.75rem;
+  background-color: #ffebcd7c;
+  color: #ffebcd;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000; }
+
+.mapita {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border-style: solid;
+  border-color: #000000;
+  box-shadow: 7px 7px 7px #3A0D50ff; }
+
+.galerialocal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: "local1 local4 local3 local3" "local1 local4 local2 local2" "local5 local5 local5 local6";
+  width: 100%;
+  margin: .625rem;
+  gap: 1rem; }
+  .galerialocal img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-style: groove;
+    border-color: #c875cc;
+    box-shadow: 7px 7px 7px #3A0D50ff; }
+
+.local1 {
+  grid-area: local1; }
+
+.local2 {
+  grid-area: local2; }
+
+.local3 {
+  grid-area: local3; }
+
+.local4 {
+  grid-area: local4; }
+
+.local5 {
+  grid-area: local5; }
+
+.local6 {
+  grid-area: local6; }
+
+.maildecontacto {
+  margin-top: 5rem;
+  width: 100%;
+  font-family: "Audiowide", sans-serif;
+  font-size: 1rem;
+  background-color: #ffebcd7c; }
+
+.logoflex {
+  padding-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .logoflex .loguitocard {
+    width: 18.75rem;
+    height: 12.5rem;
+    border: .125rem;
+    border-style: groove;
+    border-color: #c875cc;
+    box-shadow: 7px 7px 7px #3A0D50ff;
+    border-radius: .625rem;
+    animation-name: exitlogo;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-duration: 7500ms;
+    animation-delay: 150ms; }
+    .logoflex .loguitocard .loguito {
+      width: 100%;
+      height: 60%; }
+      .logoflex .loguitocard .loguito img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; }
+    .logoflex .loguitocard .loguitodes p {
+      color: #ffebcd;
+      text-align: center;
+      font-family: "Audiowide", sans-serif;
+      font-size: 1.75rem; }
+
+@keyframes exitlogo {
+  0% {
+    width: 25rem;
+    height: 15rem; }
+  15% {
+    width: 20rem;
+    height: 10rem;
+    filter: sepia(0.5);
+    transition: all 25ms linear; }
+  35% {
+    width: 28rem;
+    height: 18rem; }
+  50% {
+    width: 32rem;
+    height: 22rem;
+    filter: grayscale(1);
+    transition: all 25ms linear; }
+  75% {
+    width: 25rem;
+    height: 15rem; } }
+
+h2 {
+  font-family: "Audiowide", sans-serif;
+  color: #ffebcd; }
+
+/**meddiaqueries**/
+@media (max-width: 768px) {
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+  nav .menu-ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0; }
+  nav label {
+    display: inline-flex;
+    color: white; }
+  nav #toggle:checked ~ .menu {
+    height: 100%; }
+  .laptopcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem; }
+  .descripcion {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .partesgaleria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: none;
+    align-content: none;
+    grid-template-areas: "gal1 gal2" "gal3 gal4" "gal5 gal6" "gal7 gal8";
+    width: 70%;
+    margin: auto;
+    gap: 0.5rem; }
+    .partesgaleria .partesgaleria img {
+      width: 60%;
+      height: 60%;
+      object-fit: contain; }
+  .itemsgaleria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "item1 item2" "item3 item4" "item5 item6" "item7 item8" "item9 item10";
+    gap: 0.5rem;
+    background-color: #d9d2d2a1;
+    width: 70%;
+    margin-right: 1rem; }
+    .itemsgaleria img {
+      width: 50%;
+      height: 50%;
+      object-fit: cover; }
+  .instrucciones {
+    font-size: 1.2rem; }
+  .productos ul li a {
+    font-size: 1.5rem; }
+  .wattprecio-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: end; } }
+
+@media (max-width: 480px) {
+  .itemsgaleria {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8" "item9";
+    gap: 0.2rem;
+    background-color: #d9d2d2a1;
+    width: 50%;
+    margin-right: 1rem; }
+    .itemsgaleria img {
+      width: 50%;
+      height: 50%;
+      object-fit: cover; }
+  .productos li a {
+    font-size: 1rem; }
+  .instrucciones {
+    font-size: 1rem; } }
