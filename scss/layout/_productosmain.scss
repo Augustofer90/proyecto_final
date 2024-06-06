@@ -18,20 +18,31 @@
             list-style: none;
             a{
                 font-family: "Audiowide", sans-serif;
-                font-size: 2rem;
+                font-size: 1.5rem;
                 color: #0E466Bff ;
             }
         }
     }
-
 }
+div .introayuda{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.75rem;
+    background-color: #ffebcd7c;
+    color: #ffebcd;
+    text-align: center;
+    border-style: solid;
+    border-color: #000000;
+}
+
 .itemsgaleria {
     @include grid(repeat(3, 1fr), repeat(3, 1fr), center, center, "item1 item2 item3" "item4 item5 item6" "item7 item8 item9");
     gap: 1rem;
     img {
         width: 50%;
-        height: 50%;
+        height: 50%;border: #000000;
+        border-style: double;
         object-fit: cover;
+
     }
     background-color: #d9d2d2a1;
     width: 70%;
